@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="shortcut icon" href="./assets/img/favicons/favicon.ico" type="image/x-icon" />
+    <title>Template</title>
+    <link rel="stylesheet" href="assets/lib/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header_menu flex" id="header_menu">
+            <a class="logo_link" href="index.html">
+                <div class="logo flex">
+                    <svg class="icon_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.71 50.29" width="40"
+                        height="40">
+                        <g id="logo3">
+                            <path
+                                d="M25.53,45c-.06.26-.11.51-.15.74a3.61,3.61,0,0,0-.06.54,1.65,1.65,0,0,0,.87,1.55,9.49,9.49,0,0,0,3.3.75l-.39,1.71h-18l.4-1.71c.39,0,1-.07,1.75-.18A9.52,9.52,0,0,0,15,48.06a2.8,2.8,0,0,0,1.39-.91A3.5,3.5,0,0,0,17,45.72l5.38-23.25c.07-.33.13-.6.16-.82a4.21,4.21,0,0,0,.05-.49,1.69,1.69,0,0,0-1-1.54,10.33,10.33,0,0,0-3.24-.88L18.78,17H37.11q5.72,0,8.58,1.62a5.26,5.26,0,0,1,2.87,4.9A8.5,8.5,0,0,1,45.78,30a17.17,17.17,0,0,1-7.88,3.83q1,1.76,2.43,4.37c1,1.75,2.11,3.75,3.41,6a23.86,23.86,0,0,0,1.46,2.29,4.18,4.18,0,0,0,1.91,1.63,7.94,7.94,0,0,0,1.36.28c.58.08,1,.12,1.24.14l-.42,1.71H37.16q-2.2-5-3.76-8.07t-3.9-7H27.82ZM39.28,24a4.44,4.44,0,0,0-1.58-3.75,7.33,7.33,0,0,0-4.58-1.23H31.53L28.28,33.21h2.27a8.62,8.62,0,0,0,6.28-2.41A9.06,9.06,0,0,0,39.28,24Z" />
+                            <path
+                                d="M14.86,35.09a18.11,18.11,0,0,1-5.95-1A13.89,13.89,0,0,1,4.17,31.4,12.48,12.48,0,0,1,1.1,27.05,14.72,14.72,0,0,1,0,21.24a21,21,0,0,1,1.58-8.1A21.84,21.84,0,0,1,6.05,6.36a20.72,20.72,0,0,1,6.76-4.61A20.85,20.85,0,0,1,21.3,0a23.32,23.32,0,0,1,5.51.67A14.54,14.54,0,0,1,31,2.2L32.74.91h2l-2.6,12.14H30.12Q29.64,7.74,27.29,5a7.59,7.59,0,0,0-6.06-2.78,8.51,8.51,0,0,0-5,1.62,13.9,13.9,0,0,0-4.08,5,24.22,24.22,0,0,0-2.21,6.42A33.39,33.39,0,0,0,9.16,22q0,4.69,2.28,7.3a7.68,7.68,0,0,0,6.09,2.6,11.07,11.07,0,0,0,6.21-1.87,22.46,22.46,0,0,0,5.51-5.42l1.8,1.22a24.6,24.6,0,0,1-2.74,3.51,17.49,17.49,0,0,1-3.63,3,18.91,18.91,0,0,1-4.39,2A18.39,18.39,0,0,1,14.86,35.09Z" />
+                        </g>
+                    </svg>
+                    <div class="logo_text">Creme</div>
+                </div>
+            </a>
+            <nav class="top_menu flex">
+                <ul class="menu flex">
+                    <li class="menu_item"><a class="item_link" href="index.html">home</a></li>
+                    <li class="menu_item"><a class="item_link" href="#">about</a></li>
+                    <li class="menu_item">
+                        pages<i class="down"></i>
+                        <ul class="submenu">
+                            <li class="menu_item">
+                                <a class="item_link" href="page.html">Page_1</a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="item_link" href="page.html">Page_2</a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="item_link" href="404.html">404</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="#">portfolio</a>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link" href="contacts.html">contacts</a>
+                    </li>
+                    <li class="menu_item visible_search">
+                        <i class="icon-search"></i>
+                    </li>
+                    <li class="menu_item">
+                        <a class="item_link sign_in" id="sign_in">sign in</a>
+                    </li>
+                    <li class="menu_item line">
+                        <a class="item_link" id="sign_up">sign up</a>
+                    </li>
+                </ul>
+                <div class="header_buttons flex">
+                    <button class="icon_search visible_search" id="search_btn">
+                        <i class="icon-search"></i>
+                    </button>
+                    <button class="icon_burger" id="menu_btn">
+                        <i class="icon-menu"></i>
+                    </button>
+                </div>
+                <nav class="menu_mobil">
+                    <ul class="mobil">
+                        <li class="menu_item"><a class="item_link" href="index.html"
+                                onclick="window.open(this.href,'_self')">home</a></li>
+                        <li class="menu_item"><a class="item_link" href="#"
+                                onclick="window.open(this.href,'_self')">about</a></li>
+                        <li class="menu_item" id="submenu_btn">
+                            Padges<i class="down"></i>
+                        </li>
+                        <li class="menuMobil">
+                            <ul class="submenu_mobil drop_menu">
+                                <li class="menu_item-mobil">
+                                    <a class="item_link" href="page.html"
+                                        onclick="window.open(this.href,'_self')">Page_1</a>
+                                </li>
+                                <li class="menu_item-mobil">
+                                    <a class="item_link" href="page.html"
+                                        onclick="window.open(this.href,'_self')">Page_2</a>
+                                </li>
+                                <li class="menu_item-mobil">
+                                    <a class="item_link" href="404.html"
+                                        onclick="window.open(this.href,'_self')">404</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item">
+                            <a class="item_link" href="#" onclick="window.open(this.href,'_self')">portfolio</a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="item_link" href="contacts.html"
+                                onclick="window.open(this.href,'_self')">contacts</a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="item_link sign_in">sign in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+            <div class="search_site">
+                <input type="text" class="search" placeholder="Search" />
+                <button class="search_button icon_search" id="search_button">
+                    <i class="icon-search"></i>
+                </button>
+            </div>
+        </div>
+
+</header>
+
+    <section class="main_content" id="main_content">
+        <div class="page_content only_page flex wrapper">
+            <div class="contact_page flex">
+                <div class="contact_container">
+                    <h4 class="contact_title">Send Us Message</h4>
+                    <form action="#" class="contact_form" id="contact_form">
+                        <input type="text" name="name" id="name" placeholder="Username">
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                        <textarea name="message" id="message" rows="10" style="resize: none"
+                            placeholder="Message"></textarea>
+                        <button type="submit" class="submit_btn" id="send">Send</button>
+                    </form>
+                    <ul class="social_icons flex contact_social">
+                        <li class="social_item">
+                            <a href="#" class="social_link"><i class="icon-facebook"></i></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#" class="social_link"><i class="icon-twitter"></i></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#" class="social_link"><i class="icon-instagram"></i></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#" class="social_link"><i class="icon-linkedin"></i></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#" class="social_link"><i class="icon-telegram"></i></a>
+                        </li>
+                    </ul>
+                    <div class="contact_about">
+                        <div class="contact_about-img"><img src="./assets/img/2.jpg" alt="About-img"></div>
+                        <h4 class="about_title">About Us</h4>
+                        <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                            repellat minus commodi nam debitis distinctio quam nulla alias vitae similique velit nemo
+                            quo modi, nobis, voluptas facere assumenda praesentium animi, hic consequuntur eius nostrum
+                            quod quas sed. Ea eum necessitatibus vero voluptatem repudiandae ad deleniti. Repellendus
+                            commodi eos velit a fugiat, incidunt nemo inventore. Itaque eligendi, adipisci incidunt hic
+                            accusamus quis ipsa qui repellat fugit earum, ex totam illum dolorem voluptatibus! Aut nulla
+                            esse facere voluptatum quaerat eveniet natus quos quas perferendis? Saepe ab sunt quasi
+                            quaerat ratione cumque accusantium officiis at incidunt, voluptas ex placeat vel tenetur,
+                            alias culpa?</p>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="sidebar">
+                    <h4 class="wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.5s">RECENT POSTS</h4>
+                    <div class="recent_posts flex">
+                      <a href="#" class="recent_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                        <div class="recent_card flex">
+                          <div class="recent_img">
+                            <img src="./assets/img/1.jpg" alt="MDN Logo" />
+                          </div>
+            
+                          <div class="recent_content">
+                            <h5 class="recent_title">Contrary to popular</h5>
+                            <p class="recent_text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                            <small><span class="time">12.01.2019 11.15</span><span class="theme"> 👁 124</span></small>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="recent_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                        <div class="recent_card flex">
+                          <div class="recent_img">
+                            <img src="./assets/img/3.jpg" alt="MDN Logo" />
+                          </div>
+                          <div class="recent_content">
+                            <h5 class="recent_title">Contrary to popular</h5>
+                            <p class="recent_text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                            <small><span class="time">12.01.2019 11.15</span><span class="theme"> 👁 124</span></small>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="recent_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                        <div class="recent_card flex">
+                          <div class="recent_img">
+                            <img src="./assets/img/5.jpg" alt="MDN Logo" />
+                          </div>
+                          <div class="recent_content">
+                            <h5 class="recent_title">Contrary to popular</h5>
+                            <p class="recent_text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                            <small><span class="time">12.01.2019 11.15</span><span class="theme"> 👁 124</span></small>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="recent_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                        <div class="recent_card flex">
+                          <div class="recent_img">
+                            <img src="./assets/img/6.jpg" alt="MDN Logo" />
+                          </div>
+                          <div class="recent_content">
+                            <h5 class="recent_title">Contrary to popular</h5>
+                            <p class="recent_text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                            <small><span class="time">12.01.2019 11.15</span><span class="theme"> 👁 124</span></small>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+            
+                    <div class="categories">
+                      <h4 class="wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.8s">Categories</h4>
+                      <div class="categories_links wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                        <a href="#" class="categories_link">
+                          <span class="arraw">&#62;</span>
+                          <p class="categories_text">News</p>
+                          <span class="count">(15)</span>
+                        </a>
+                        <a href="#" class="categories_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                          <span class="arraw">&#62;</span>
+                          <p class="categories_text">News</p>
+                          <span class="count">(15)</span>
+                        </a>
+                        <a href="#" class="categories_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                          <span class="arraw">&#62;</span>
+                          <p class="categories_text">News</p>
+                          <span class="count">(15)</span>
+                        </a>
+                        <a href="#" class="categories_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                          <span class="arraw">&#62;</span>
+                          <p class="categories_text">News</p>
+                          <span class="count">(15)</span>
+                        </a>
+                        <a href="#" class="categories_link wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.6s">
+                          <span class="arraw">&#62;</span>
+                          <p class="categories_text">News</p>
+                          <span class="count">(15)</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="tags_content">
+                      <h4 class="wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s">TAGS</h4>
+                      <div class="tags_block wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.5s">
+                        <ul class="tags flex">
+                          <li class="tag_item">
+                            <a href="#" class="tag_link">theme</a>
+                          </li>
+                          <li class="tag_item"><a href="#" class="tag_link">theme</a></li>
+                          <li class="tag_item">
+                            <a href="#" class="tag_link">theme</a>
+                          </li>
+                          <li class="tag_item"><a href="#" class="tag_link">theme</a></li>
+                          <li class="tag_item"><a href="#" class="tag_link">theme</a></li>
+                          <li class="tag_item">
+                            <a href="#" class="tag_link">theme</a>
+                          </li>
+                          <li class="tag_item"><a href="#" class="tag_link">theme</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="latest_news">
+                      <h4 class="wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s">NEWSLETTER</h4>
+                      <h5 class="wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s">Stay informed on our latest news!
+                      </h5>
+                      <div class="your_email wow slideInRight" data-wow-delay="0.1s" data-wow-duration="0.5s">
+                        <input type="email" name="email" id="email" class="email" />
+                        <button class="search_button icon_search" id="email_send">
+                          <i class="icon-telegram"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            
+        </div>
+    </section>
+
+    
+    
+    <footer class="footer">
+            <div class="footer_text flex">
+              <p class="copyright">
+                © 2019 CREME - Responsive Multi-Purpose HTML5 Template. All Rights
+                Reserved. INSPIRO
+              </p>
+              <ul class="social_icons flex footer_social wow slideInRight" data-wow-duration="0.3s">
+                <li class="social_item">
+                  <a href="#" class="social_link"><i class="icon-facebook"></i></a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link"><i class="icon-twitter"></i></a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link"><i class="icon-instagram"></i></a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link"><i class="icon-linkedin"></i></a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link"><i class="icon-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        
+          <div class="modal_sign"  id="modalIn">
+              <div class="close-modalIn"> 
+                  &times;
+              </div>
+            <div class="sign_block modal-content">
+              <h4 class="sign_title">Sign In</h4>
+              <form action="#" class="sign_form" id="sign-in_form">
+                <input type="text" name="name" id="name" placeholder="Username">
+                <input type="email" name="email" id="email_in" placeholder="Your email">
+                <button type="submit" class="submit_btn" id="sign_send">Send</button>
+                <p class="have_account">Don't have account?<button type="submit" class="submit_btn signup_btn" id="sign_sendUp">Sign Up</button></p>
+              </form>
+            </div>
+          </div>
+        
+          <div class="modal_sign" id="modalUp">
+            <div class="close-modalIn">
+                &times;
+            </div>
+            <div class="sign_block modal-content">
+                <h4 class="sign_title">Sign Up</h4>
+                <form action="#" class="sign_form" id="sign-up_form">
+                    <input type="text" name="name" id="name_up" placeholder="Username">
+                    <input type="email" name="email" id="email_up" placeholder="Your email">
+                    <button type="submit" class="submit_btn" id="sign_send-up">Send</button>
+                </form>
+            </div>
+        </div>
+        
+          <!-- JS -->
+          <script src="assets/lib/jquery/jquery-3.3.1.min.js"></script>
+          <script src="assets/lib/js/wow.min.js"></script>
+          <script src="assets/lib/js/slick.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js"></script>
+          <script src="assets/js/main.js"></script>
+        </body>
+        
+        </html>
